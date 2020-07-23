@@ -1,0 +1,26 @@
+.App {
+  width: 100vw;
+  background-color: black;
+  color: rgb(170, 250, 200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Courier, monospace;
+  text-shadow: 
+    0 0 1px rgb(140, 220, 180),
+    0 0 2px rgb(90, 160, 130),
+    0 0 3px rgb(40, 110, 80);
+}
+
+ul {
+  list-style-type: none;
+  width: 80%;
+  overflow-wrap: normal;
+}
+
+ul > li {
+  overflow-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+
